@@ -4,11 +4,11 @@ A lightweight, completely free Firefox extension that automatically detects and 
 
 ## Features
 
-- 🌍 **Completely Free:** Powered by the open Google Translate API endpoint, requiring no API keys or subscriptions.
-- ⚡ **Dynamic Translation:** Uses `MutationObserver` to automatically translate content as you scroll or as new elements pop up.
-- 🛡️ **HTML Preservation:** Uses `TreeWalker` to extract and translate pure text nodes, guaranteeing that your page's CSS styles, event listeners, and layouts do not break.
-- 🧠 **Smart Caching:** Avoids duplicate API calls by caching translated strings in-memory.
-- 🔄 **One-Click Restore:** Instantly revert the entire page back to its original language without reloading.
+-  **Completely Free:** Powered by the open Google Translate API endpoint, requiring no API keys or subscriptions.
+-  **Dynamic Translation:** Uses `MutationObserver` to automatically translate content as you scroll or as new elements pop up.
+-  **HTML Preservation:** Uses `TreeWalker` to extract and translate pure text nodes, guaranteeing that your page's CSS styles, event listeners, and layouts do not break.
+-  **Smart Caching:** Avoids duplicate API calls by caching translated strings in-memory.
+-  **One-Click Restore:** Instantly revert the entire page back to its original language without reloading.
 
 ## Installation (For Users)
 
