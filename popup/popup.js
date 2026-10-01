@@ -22,8 +22,13 @@ document.addEventListener('DOMContentLoaded', () => {
   // Action buttons
   translateBtn.addEventListener('click', () => {
     const lang = targetLangSelect.value;
+    browser.storage.local.set({ targetLang: lang });
     browser.tabs.query({ active: true, currentWindow: true }).then(tabs => {
-      browser.tabs.sendMessage(tabs[0].id, { action: "translate", targetLang: lang });
+      browser.tabs.sendMessage(tabs[0].id, {
+        action: "translate",
+        targetLang: lang,
+        force: true
+      });
     });
   });
 

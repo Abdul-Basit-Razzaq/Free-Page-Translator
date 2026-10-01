@@ -9,8 +9,11 @@
     }
   },
   "name": "Free Page Translator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically detect and translate web pages for free, preserving original HTML.",
+  "icons": {
+    "512": "icons/icon512.png"
+  },
   "permissions": [
     "activeTab",
     "storage",
@@ -30,6 +33,7 @@
   ],
   "action": {
     "default_popup": "popup/popup.html",
-    "default_title": "Translate Page"
+    "default_title": "Translate Page",
+    "default_icon": "icons/icon512.png"
   }
 }
